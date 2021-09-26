@@ -1,0 +1,89 @@
+<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;/*for brwser*/
+
+}
+.withbg{
+	height: 100%;
+}
+
+.icons{
+	
+	position: fixed;
+	top: 30%;
+	left: 0%;
+	width: 200px;
+	display: flex;
+	flex-direction: column ;
+}
+
+.icons a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 22px;
+	margin: 2px;
+	text-align: right;
+	border-radius: 0px 50px 50px 0px;
+	transform: translate(-130px,0px);
+	transition: all 0.5s;
+	/*font-family: ;*/
+}
+
+.icons a:hover{
+	transform: translate(-130px,0px);
+}
+.icons a i{
+	margin-left: 20px;
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+.icons a:hover i{
+	transform: rotate(360deg);
+}
+
+.icons a i.fa-facebook {
+	color: #2C80D3;
+}
+.icons a i.fa-youtube {
+	color: #2C80D3;
+}
+
+.icons a i.fa-linkedin {
+	color: #2C80D3;
+}
+
+.facebook{
+	background-color: #2C80D3;
+	color: white;
+}
+.youtube{
+	background-color: #2C80D3;
+	color: white;
+}
+.twitter{
+	background-color: #2C80D3;
+	color: white;
+}
+
+.content{
+	margin-left: 80px;
+}
+</style>
+
+
+<div class="icons">
+<a href="#" class="facebook">Facebook <i class="fa fa-facebook"></i></a>
+<a href="#" class="youtube">Youtube  <i class="fa fa-whatsapp"></i></a>
+<a href="#" class="twitter">Twitter   <i class="fa fa-twitter"></i></a>
+</div>
